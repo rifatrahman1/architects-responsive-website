@@ -9,7 +9,7 @@
     font-optical-sizing: auto;
 }
 
-/* header optin style satrt */
+/* header nav optin style satrt */
 
 header {
     background-color: rgba(255, 144, 14, 0.10);
@@ -19,6 +19,7 @@ header {
 nav {
     display: flex;
     align-items: center;
+    
     justify-content: space-between;
 }
 .nav-title{
@@ -33,6 +34,7 @@ nav > ul {
 nav li{
     margin-left: 30px;
     list-style: none;
+    font-size: 1rem;
     font-weight: 500;
 }
 nav ul li a{
@@ -41,3 +43,22 @@ nav ul li a{
 }
 
 /* header optin style end */
+
+/* header banner style start */
+
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin:  0 auto;
+
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner-description{
+    color: #727272;
+}
+.btn
+/* header banner style end */
