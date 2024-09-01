@@ -26,6 +26,11 @@
     padding: 20px 25px;
     border: 0;
 }
+.section-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
 
 /* shared styles end */
 /* header nav optin style satrt */
