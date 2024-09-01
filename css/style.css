@@ -1,6 +1,7 @@
 /*  work san font form google font */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* shared styles */
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +9,18 @@
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
 }
+.btn-primary{
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #FF900E;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 20px 25px;
+    border: 0;
+}
 
+/* shared styles end */
 /* header nav optin style satrt */
 
 header {
@@ -47,18 +59,58 @@ nav ul li a{
 /* header banner style start */
 
 .banner-content{
-    max-width: 800px;
+    max-width: 862px;
     text-align: center;
     margin:  0 auto;
 
 }
 .banner-title{
+    margin-top: 30px;
     font-size: 4rem;
     font-weight: 700;
     color: #131313;
 }
 .banner-description{
+    margin-top: 30px;
     color: #727272;
 }
-.btn
+.explore{
+    margin-top: 30px;
+}
+.banner img{
+    width: 100%;
+    margin-top: 30px;
+}
 /* header banner style end */
+
+/* mobile responsive media queary styles start */
+
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav li{
+        margin-top: 20px;
+        margin-left: 22px;
+    }    
+}
+/* mobile responsive media queary styles end */
+
+/* table or medium devices media queary styles start */
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }    
+    nav li{
+        margin-top: 20px;
+        margin-left: 22px;
+    }
+}
+/* table or medium devices media queary styles end */
