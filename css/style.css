@@ -146,6 +146,29 @@ main {
 }
 
 /* teams styles end */
+
+/* facts section start */
+
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.facts-card-container .card{
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid #FF900E;
+}
+.facts-card-container .card-stats{
+    color: #424242;
+    font-size: 45px;
+}
+.facts-card-container .card-title{
+    color: #727272;
+    font-weight: 600;
+    font-size: 20px;
+}
+/* facts section end */
 /* main styles end */
 /* mobile responsive media queary styles start */
 
